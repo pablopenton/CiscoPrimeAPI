@@ -1,0 +1,19 @@
+{
+  "ap_cfg_data": {
+    "high_avail_controllers": [
+      {
+        "ip_add": "10.1.1.1",
+        "host_name": "controller1"
+      },
+      {
+        "ip_add": "10.1.2.1",
+        "host_name": "controller2"
+      }
+    ],
+    "parameters": {
+      "unifiedApInfo.controllerName": "startsWith(\"controller1\")",
+      "unifiedApInfo.primaryMwar": "isNull()",
+      ".maxResults": "1000"
+    }
+  }
+}
